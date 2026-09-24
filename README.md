@@ -2,6 +2,17 @@
 
 An end-to-end data analytics project exploring customer demographics and purchasing behavior for a bicycle retail dataset using Microsoft Excel. This project covers data cleaning, feature engineering, pivot table summaries, and an interactive dashboard.
 
+_**Preview Dashboard**_
+
+<p align="center">
+    <img width="617" height="440" alt="Bike Sales Dashboard" src="https://github.com/user-attachments/assets/53a1fa8a-bf95-44df-a757-4f7f106d81b3" width="85%">
+</p>
+
+> _**How ​​to Use the Interactive Dashboard:**_
+> 1. Download the Bike Sales Project.xlsx file from this repository.
+> 2. Open the file in **Microsoft Excel** (Excel 2016 or later is recommended).
+> 3. Click **"Enable Editing"** or **"Enable Content"** if a security warning appears.
+> 4. Use the **Slicer/Filter** buttons at the top of the dashboard to interactively filter data by Year, Region, or Product Category.
 
 _**Executive Summary**_
 
