@@ -5,7 +5,7 @@ An end-to-end data analytics project exploring customer demographics and purchas
 _**Preview Dashboard**_
 
 <p align="center">
-    <img width="617" height="440" alt="Bike Sales Dashboard" src="https://github.com/user-attachments/assets/53a1fa8a-bf95-44df-a757-4f7f106d81b3" width="85%">
+<img width="616" height="446" alt="Bike Sales Dashboard" src="https://github.com/user-attachments/assets/8f72cefb-dbc4-4236-b24b-0cd1c5e87a7e" width="85%">
 </p>
 
 > _**How ​​to Use the Interactive Dashboard:**_
