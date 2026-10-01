@@ -59,8 +59,9 @@ The dashboard provides a visual overview of customer patterns:
 _**Repository Structure**_
 
 ```text
-├── Bike Sales Project.xlsx       # Main Excel workbook containing raw data, working sheet, pivots, & dashboard
-├── data/
-│   ├── raw_bike_buyers.csv       # Original dataset
-│   └── cleaned_bike_data.csv     # Exported clean dataset
-└── README.md                     # Project documentation
+├── assets/
+│   ├── Bike Sales Dashboard.PNG
+│   ├── Dashboard Preview.gif
+│   └── working sheet.PNG
+├── Bike Sales Project.xlsx     # Main Excel workbook (raw data, working sheet, pivots, & dashboard)
+└── README.md                   # Project documentation
