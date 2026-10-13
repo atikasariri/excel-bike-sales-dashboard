@@ -1,4 +1,8 @@
-# **Bike Sales Customer Analysis & Excel Dashboard**
+# **Excel Bike Sales Customer Analysis & Excel Dashboard**
+
+[![Excel](https://img.shields.io/badge/Excel-Advanced%20Dashboard-green?logo=microsoft-excel)](https://github.com/atikasariri/excel-bike-sales-dashboard)
+[![Domain](https://img.shields.io/badge/Domain-Retail%20&%20Consumer%20Analytics-orange)](#)
+[![Role](https://img.shields.io/badge/Role-Business%20Analyst-blue)](#)
 
 An end-to-end data analytics project exploring customer demographics and purchasing behavior for a bicycle retail dataset using Microsoft Excel. This project covers data cleaning, feature engineering, pivot table summaries, and an interactive dashboard.
 
@@ -31,29 +35,38 @@ The raw dataset (bike_buyers) contained 1,026 records. Key cleaning and formatti
     - **Feature Engineering (Age Brackets):** Binned the continuous "Age" variable into discrete categories (Middle Age, Adolescent, Old) using nested logic to enable clearer visual segmentation.
 
 
-_**Key Insights & Analytics (Pivot Table)**_
+_**Business Overview & Problem Statement**_
 
-Using Pivot Tables, several key drivers of bike purchases were uncovered:
+Retail bicycle businesses often struggle to identify high-value customer segments, understand purchasing behaviors across demographics (such as age, income, and commute distance), and evaluate regional sales distribution. 
 
-1. **Income vs. Purchase Decision:**
-   - On average, customers who purchased a bicycle had higher income levels ($57,962) compared to non-buyers ($54,874).
-   - Male buyers in particular had the highest average income ($60,124).
-
-2. **Commute Distance Impact:**
-   - Customers with short commute distances (**0–1 miles**) showed the highest purchase conversion rate (200 buyers vs. 166 non-buyers).
-   - As commute distance increased beyond 5 miles, purchase rates dropped significantly, indicating that bikes are predominantly bought for short-distance commutes or casual riding.
-
-3. **Demographics & Age Groups:**
-   - The **Middle Age** group (31–54 years old) represents the vast majority of bike purchasers.
+Without interactive data visualization, stakeholders face challenges in:
+* Pinpointing core customer profiles that yield the highest conversion rates.
+* Aligning inventory and marketing campaigns with customer income brackets and marital status.
+* Tracking key performance indicators (KPIs) through a centralized, user-friendly dashboard.
 
 
-_**Interactive Dashboard Feature**_
+_**Data Architecture & Tools Used**_
 
-The dashboard provides a visual overview of customer patterns:
-- **Income by Gender Chart:** Clustered column chart comparing average income between buyers and non-buyers grouped by gender.
-- **Commute Distance Trend Line:** Line chart showing how purchase likelihood decreases as daily commute distance increases.
-- **Age Group Breakdown:** Bar chart illustrating purchasing trends across different age brackets.
-- **Interactive Slicers:** Allows filtering of all dashboard visualizations by **Marital Status**, **Region**, and **Education Level**.
+* **Data Processing & Modeling:** Microsoft Excel (Data Cleaning, Pivot Tables, Pivot Charts, and Slicers)
+* **Dashboarding & Visualization:** Advanced Excel Interactive Dashboard
+* **Core Analytics Focus:** Customer Demographics Segmentation, Income vs. Purchase Behavior, Commute Distance Analysis, Age Group Categorization
+
+
+_**Key Business Insights**_
+
+1. **Customer Income & Purchasing Power:** 
+   * Higher average annual income correlates directly with a higher probability of bike purchases, highlighting clear target brackets for premium models.
+2. **Age & Commute Demographics:** 
+   * Middle-aged demographic groups (specifically working professionals) represent the largest volume of buyers, particularly those with short-to-moderate commute distances.
+3. **Gender & Marital Status Trends:** 
+   * Segmented analysis reveals specific purchasing preferences between married vs. single buyers across male and female categories, driving more tailored marketing campaigns.
+
+
+_**Strategic Business Recommendations**_
+
+* **Targeted Digital Marketing:** Direct premium bike advertising toward high-income customer segments identified through demographic filtering.
+* **Commuter-Focused Product Positioning:** Promote practical, multi-use bicycle models tailored to urban professionals within active commuting ranges.
+* **Interactive Filtering for Stakeholders:** Utilize Excel slicers to enable sales teams to dynamically review regional and demographic performance on demand.
 
 
 _**Repository Structure**_
